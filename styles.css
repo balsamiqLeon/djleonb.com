@@ -1,0 +1,149 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+body {
+  /* color: DeepSkyBlue; */
+  color: #606060;
+  background-color: #fffff0; 
+}
+
+p {
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px dashed Coral;
+  opacity: 0.8;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 250px 600px;
+  grid-template-rows: auto;
+  grid-column-gap: 40px;
+  grid-row-gap: 15px;
+  justify-content: center;
+}
+
+header {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+header a {
+  font-weight: bold;
+  color: Coral;
+  text-transform: uppercase;
+}
+
+
+main {
+  grid-column-start: 2;
+  grid-row-start: 1;
+} 
+
+footer {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  grid-row-start: 2;
+  font-size: 85%;
+  margin-bottom: .5em;
+}
+
+h1 {
+  color: DeepSkyBlue;
+  /* color: MediumSpringGreen; */
+  font-family: "Marvin Visions";
+  font-size: 3.7em;
+  text-shadow: 3px 2px 3px MediumSpringGreen;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: .5em;
+  padding-top: 0;
+  /* background-color: MediumSpringGreen; */
+}
+
+h1 .bigger {
+  font-size: 1.5em;
+  color: HotPink;
+}
+
+h2 {
+  color: HotPink;
+  text-transform: uppercase;
+}
+
+hr {
+  border-color: MediumSpringGreen;
+  border-style: solid;
+}
+
+iframe {
+  margin-bottom: 1.5em;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    grid-template-columns: minmax(auto, 600px);
+  }
+  main {
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+  footer {
+    grid-column-end: 1;
+    grid-row-start: 3;
+  }
+  
+}
+
+input, select, textarea {
+	font-size: inherit;
+  box-sizing: border-box;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid DeepSkyBlue;
+    border-radius: 3px;
+}
+
+input:focus, textarea:focus {
+  border-color: HotPink;
+  background: rgba(204,204,204,.2);
+}
+
+button {
+  padding: 8px 12px;
+	font-family: inherit;
+	font-size: inherit;
+  border-radius: 3px;
+  background-color: MediumSpringGreen;
+  /* color: white; */
+  width: 120px;
+}
+
+button:disabled {
+  background-color: #777;
+  color: #AAA;
+}
+
+input:focus, textarea:focus {
+  background   : rgba(204,204,204,.1);
+  border-radius: 3px;
+  outline      : #ccc;
+}
