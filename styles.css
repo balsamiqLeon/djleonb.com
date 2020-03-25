@@ -12,7 +12,7 @@ html { font-family: 'Inter', sans-serif; }
 body {
   /* color: DeepSkyBlue; */
   color: #606060;
-  background-color: #fffff9; 
+  background-color: #fffffb; 
 }
 
 p {
@@ -66,13 +66,14 @@ h1 {
   color: DeepSkyBlue;
   /* color: MediumSpringGreen; */
   font-family: 'Marvin Visions','Source Sans Pro', serif;
-  font-size: 3.7em;
+  font-size: 3.6em;
   text-shadow: 3px 2px 3px MediumSpringGreen;
   line-height: 1;
   margin-top: 0;
   margin-bottom: .5em;
   padding-top: 0;
-  /* background-color: MediumSpringGreen; */
+  /* letter-spacing: 2px; */
+  /* border-bottom: 1px solid MediumSpringGreen; */
 }
 
 h1 .bigger {
@@ -83,6 +84,7 @@ h1 .bigger {
 h2 {
   color: HotPink;
   text-transform: uppercase;
+  text-align: right;
 }
 
 hr {
