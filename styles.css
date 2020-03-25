@@ -3,11 +3,16 @@ html { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
   html { font-family: 'Inter var', sans-serif; }
 }
+@font-face {
+  font-family: 'Marvin Visions';
+  src: url('/MarvinVisions-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/MarvinVisions-Bold.woff') format('woff'); /* Pretty Modern Browsers */
+}
 
 body {
   /* color: DeepSkyBlue; */
   color: #606060;
-  background-color: #fffff3; 
+  background-color: #fffff9; 
 }
 
 p {
@@ -60,7 +65,7 @@ footer {
 h1 {
   color: DeepSkyBlue;
   /* color: MediumSpringGreen; */
-  font-family: "Marvin Visions";
+  font-family: 'Marvin Visions','Source Sans Pro', serif;
   font-size: 3.7em;
   text-shadow: 3px 2px 3px MediumSpringGreen;
   line-height: 1;
