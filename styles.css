@@ -15,8 +15,14 @@ body {
   background-color: #fffffb; 
 }
 
-p {
+p, li {
   line-height: 1.6;
+  margin: 1em 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 a {
@@ -25,7 +31,7 @@ a {
 
 a:hover {
   border-bottom: 1px dashed Coral;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .container {
@@ -46,6 +52,7 @@ header a {
   font-weight: bold;
   color: Coral;
   text-transform: uppercase;
+  text-shadow: 3px 2px 3px PaleGreen;
 }
 
 
@@ -60,6 +67,7 @@ footer {
   grid-row-start: 2;
   font-size: 85%;
   margin-bottom: .5em;
+  text-align: right;
 }
 
 h1 {
@@ -85,11 +93,15 @@ h2 {
   color: HotPink;
   text-transform: uppercase;
   text-align: right;
+  text-shadow: 1px 1px 2px PaleGreen;
 }
 
 hr {
-  border-color: MediumSpringGreen;
-  border-style: solid;
+  height:1px; 
+  border:none; 
+  color: #d0d0d0; 
+  background-color: #d0d0d0;
+  margin: 1.5em 0;
 }
 
 iframe {
@@ -111,6 +123,24 @@ section {
   footer {
     grid-column-end: 1;
     grid-row-start: 3;
+  }
+  
+  hr {
+    display: none;
+  }
+  
+  ul {
+    border-bottom: 1px solid #d0d0d0;
+    text-align: justify;
+  }
+  
+  li {
+    display: inline-block;
+    padding: 0 8vw 0 0;
+  }
+  
+  li:last-child {
+    padding: 0;
   }
   
 }
