@@ -12,12 +12,15 @@ html { font-family: 'Inter', sans-serif; }
 body {
   /* color: DeepSkyBlue; */
   color: #606060;
+  color: #446;
   background-color: #fffffb; 
+  background-image: linear-gradient(to top right, #ffffe0, #fff);
 }
 
 p, li {
   line-height: 1.6;
   margin: 1em 0;
+  /* color: #eee; */
 }
 
 ul {
@@ -53,6 +56,7 @@ header a {
   color: Coral;
   text-transform: uppercase;
   text-shadow: 3px 2px 3px PaleGreen;
+  /* letter-spacing: 1px; */
 }
 
 
@@ -94,6 +98,7 @@ h2 {
   text-transform: uppercase;
   text-align: right;
   text-shadow: 1px 1px 2px PaleGreen;
+  /* letter-spacing: 1px; */
 }
 
 hr {
@@ -131,12 +136,11 @@ section {
   
   ul {
     border-bottom: 1px solid #d0d0d0;
-    text-align: justify;
   }
   
   li {
     display: inline-block;
-    padding: 0 8vw 0 0;
+    padding-right: 20px;
   }
   
   li:last-child {
@@ -170,8 +174,10 @@ button {
 	font-size: inherit;
   border-radius: 3px;
   background-color: MediumSpringGreen;
+  background-image: linear-gradient(to right, MediumSpringGreen, DeepSkyBlue);
   /* color: white; */
-  width: 120px;
+  width: 150px;
+  color: white;
 }
 
 button:disabled {
