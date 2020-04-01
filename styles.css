@@ -14,7 +14,7 @@ body {
   color: #606060;
   color: #446;
   background-color: #fffffb; 
-  background-image: linear-gradient(to top right, #ffffe0, #fff);
+  background-image: linear-gradient(to top right, LightYellow, #fff);
 }
 
 p, li {
@@ -56,7 +56,8 @@ header a {
   color: Coral;
   text-transform: uppercase;
   text-shadow: 3px 2px 3px PaleGreen;
-  /* letter-spacing: 1px; */
+  letter-spacing: 1px;
+  font-size: 1.1em;
 }
 
 
@@ -140,7 +141,7 @@ section {
   
   li {
     display: inline-block;
-    padding-right: 20px;
+    padding-right: 30px;
   }
   
   li:last-child {
