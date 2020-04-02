@@ -14,7 +14,7 @@ body {
   color: #606060;
   color: #446;
   background-color: #fffffb; 
-  background-image: linear-gradient(to top right, LightYellow, #fff);
+  background-image: linear-gradient(to top right, #ffffa0, #fff);
 }
 
 p, li {
