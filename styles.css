@@ -12,9 +12,9 @@ html { font-family: 'Inter', sans-serif; }
 body {
   /* color: DeepSkyBlue; */
   color: #606060;
-  color: #446;
+  color: #434356;
   background-color: #fffffb; 
-  background-image: linear-gradient(to top right, #ffffa0, #fff);
+  background-image: linear-gradient(to top left, #ffffa0, #fff);
 }
 
 p, li {
